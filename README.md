@@ -31,8 +31,6 @@ Contact
 
 Tools Used: Visual Studio Code, HTML, Google.com, Neocities.org
 
-Website Link: SK Movie House Website
-
 2. Lead Magnet Copywriting
 Implemented lead generation tactics on the website to collect user details.
 Copywriting performed for the about section and main page to provide users with detailed information.
