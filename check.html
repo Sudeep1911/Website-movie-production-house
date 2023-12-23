@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SK Movie Production House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .header {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding:0.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000000;
+            padding: 0.1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.1rem 2rem;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .content {
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .slider {
+            width: 1519px;
+            height: 500px;
+            background-color: yellow;
+
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+          }
+          .image-container {
+            width: 6076px;
+            background-color: black;
+            height: 500px;
+            clear: both;
+            position: relative;
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+          }
+          .slide {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+          }
+          #slide-1:target ~ .image-container {
+            left: 0px;
+          }
+          #slide-2:target ~ .image-container {
+            left: -1519px;
+          }
+          #slide-3:target ~ .image-container {
+            left: -3038px;
+          }
+          #slide-4:target ~ .image-container {
+            left: -4557px;
+          }
+          .buttons {
+            position: relative;
+            top: -20px;
+          }
+          .buttons a {
+            display: inline-block;
+            height: 15px;
+            width: 15px;
+            border-radius: 50px;
+            background-color: rgb(0, 0, 254);
+          }
+          .buttons a:active{
+            background-color: lightblue;
+          }
+          .thankYouMessage {
+            background-image: linear-gradient(to top,#ff00d4,#00ddff);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+              padding: 20px;
+              border-radius: 5px;
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+              max-width: 80%;
+              max-height: 80%;
+              overflow-y: auto;
+          }
+          .popup-overlay{
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 2;
+            justify-content: center;
+            align-items: center;
+        }
+        .popup-content {
+            background-image: linear-gradient(to top,#ff00d4,#00ddff);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+              padding: 20px;
+              border-radius: 5px;
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+              max-width: 80%;
+              max-height: 80%;
+              overflow-y: auto;
+          }
+    </style>
+    <script>
+        function openPopup() {  
+            const popup = document.getElementById('pop');
+            popup.style.display = 'flex';
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="website.html"><img src="Sk.png" height="60px"></a>
+            <a href="movies.html">Movies</a>
+            <a href="TV shows.html">TV shows</a>
+            <a href="Animations.html">Animations</a>
+            <a href="Games.html">Games</a>
+            <a href="Collections.html">Collections</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <center><p>Bringing Dreams to Life, One Reel at a Time: SK MOVIE PRODUCTION HOUSE</p></center>
+    </div>
+    <div class="slider">
+        <span id="slide-1"></span>
+        <span id="slide-2"></span>
+        <span id="slide-3"></span>
+        <span id="slide-4"></span>
+        <div class="image-container">
+          <img src="sony.jpg" class="slide" width="1519" height="500" />
+          <img src="1319326.jpeg" class="slide" width="1519" height="500" />
+          <img src="1320159.jpeg" class="slide" width="1519" height="500" />
+          <img src="download.jpeg" class="slide" width="1519" height="500" />
+        </div>
+        <div class="buttons">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+          <a href="#slide-4"></a>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="content">
+          <h2>|Web-Slinging to New Heights: Marvel's Spider-Man 2.</h2>
+          <h3> A Bigger, Bolder Spider-Verse:</h3>
+            <p>First and foremost, we want to express our gratitude for the incredible support and enthusiasm you've shown for the first game. Your passion and feedback have been instrumental in shaping the sequel.</p>
+            
+            <p>In Marvel's Spider-Man 2, we're taking everything you loved about the original game and cranking it up to 11. You'll once again step into the iconic red and blue suit of Peter Parker, but this time, you won't be alone. Prepare to team up with none other than Miles Morales, who has become an integral part of the Spider-Verse.</p>
+            
+            <h3>Two Spider-Men, One Epic Story:</h3>
+            
+            <p>Miles and Peter, both grappling with the responsibilities of their double lives, must face new challenges as a powerful new threat emerges in New York City. Together, they'll need to navigate the complexities of heroism, friendship, and family, making choices that will define not only their destinies but the city they've sworn to protect.</p>
+            
+            <h3>Enhanced Gameplay and Graphics:</h3>
+            
+            <p>We've pushed the boundaries of gaming technology to bring you a truly immersive experience. Marvel's Spider-Man 2 will feature improved graphics, lifelike character animations, and a dynamic open-world New York City that feels more alive than ever. And yes, the web-swinging mechanics you love are back and better than ever, delivering an unparalleled sense of freedom and exhilaration.</p>
+            
+            <h3>Iconic Villains Return:</h3>
+            
+            <p>Of course, what would a Spider-Man game be without iconic villains? Rest assured, you'll be facing off against some of Spidey's most infamous foes, and maybe even some new surprises along the way. The stakes have never been higher.</p>
+            
+            <h3>Stay Tuned for More:</h3>
+            
+            <p></p>We understand that the excitement is palpable, and you're hungry for more details. Rest assured, we'll be sharing more information about Marvel's Spider-Man 2 in the coming months. Keep an eye on our website and official Marvel channels for exclusive updates, trailers, and behind-the-scenes insights.</p>
+          <br>
+          <button onclick="openPopup()">Pre- Order now!!</button>
+        </div>
+        <div class="popup-overlay" id="pop">
+            <div class="popup-content">
+            <div id="thankYouMessage">
+                <p>The Item is added to your cart!!
+                The game will be available once released</p>
+            </div>
+            </div>
+        </div>
+  </div>
+<br>
+  <footer>
+    <p>&copy; 2023 SK Movie Production House. All rights reserved.</p>
+</footer>
+</body>
+</html>

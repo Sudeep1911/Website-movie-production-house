@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SK Movie Production House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .header {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding:0.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000000;
+            padding: 0.1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.1rem 2rem;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .content {
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .slider {
+            width: 1519px;
+            height: 400px;
+            background-color: yellow;
+
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+          }
+          .image-container {
+            width: 6076px;
+            background-color: black;
+            height: 400px;
+            clear: both;
+            position: relative;
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+          }
+          .slide {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+          }
+          #slide-1:target ~ .image-container {
+            left: 0px;
+          }
+          #slide-2:target ~ .image-container {
+            left: -1519px;
+          }
+          #slide-3:target ~ .image-container {
+            left: -3038px;
+          }
+          #slide-4:target ~ .image-container {
+            left: -4557px;
+          }
+          .buttons {
+            position: relative;
+            top: -20px;
+          }
+          .buttons a {
+            display: inline-block;
+            height: 15px;
+            width: 15px;
+            border-radius: 50px;
+            background-color: rgb(0, 0, 254);
+          }
+          .buttons a:active{
+            background-color: lightblue;
+          }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="website.html"><img src="Sk.png" height="60px"></a>
+            <a href="movies.html">Movies</a>
+            <a href="TV shows.html">TV shows</a>
+            <a href="Animations.html">Animations</a>
+            <a href="Games.html">Games</a>
+            <a href="Collections.html">Collections</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <center><p>Bringing Dreams to Life, One Reel at a Time: SK MOVIE PRODUCTION HOUSE</p></center>
+    </div>
+    <div class="slider">
+        <span id="slide-1"></span>
+        <span id="slide-2"></span>
+        <span id="slide-3"></span>
+        <span id="slide-4"></span>
+        <div class="image-container">
+          <img src="cb.jpg" class="slide" width="1519" height="400" />
+          <img src="ac.jpg" class="slide" width="1519" height="400" />
+          <img src="awo.jpg" class="slide" width="1519" height="400" />
+          <img src="hl.webp" class="slide" width="1519" height="400" />
+        </div>
+        <div class="buttons">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+          <a href="#slide-4"></a>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="content">
+          <h2>|Video Games.</h2>
+          <p> your gateway to a realm where pixels and passion collide to create unforgettable gaming experiences. Prepare to embark on epic adventures, solve intricate puzzles, and immerse yourself in captivating narratives that put you at the heart of the action.</p>
+          <table>
+              <tr>
+                  <td><a href="https://www.rockstargames.com/gta-v"><img src="gts.jpg" height="250px"></a></td>
+                  <td><a href="https://www.callofduty.com/mobile"><img src="cod.jpg" height="250px" width="150px"></a></td>
+                  <td><a href="https://www.playstation.com/en-us/games/marvels-spider-man-miles-morales/"><img src="smmm.webp" height="250px"></a></td>
+                  <td><a href="https://avengers.crystald.com/en-us/"><img src="ag.webp" height="250px"></a></td>
+                  <td><a href="https://www.fortnite.com/"><img src="ft.jpg" height="250px"></a></td>
+                  <td><a href="https://www.rockstargames.com/reddeadredemption2/"><img src="rdr.webp" height="250px"></a></td>
+                  <td><a href="https://arkhamcity.fandom.com/wiki/Arkham_Knight"><img src="bm.webp" height="250px"></a></td>
+              </tr>
+          </table>
+          <br>
+      </div>
+  </div>
+<br>
+  <footer>
+    <p>&copy; 2023 SK Movie Production House. All rights reserved.</p>
+</footer>
+</body>
+</html>
